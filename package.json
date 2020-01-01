@@ -18,7 +18,11 @@
         "test": "yarn lint && ava"
     },
     "keywords": [],
-    "dependencies": {},
+    "dependencies": {
+        "detect-emoji-support": "^0.1.7",
+        "execa": "^4.0.0",
+        "has-flag": "^4.0.0"
+    },
     "devDependencies": {
         "ava": "^2.4.0",
         "eslint-config-richienb": "^0.2.3",
