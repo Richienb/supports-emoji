@@ -1,3 +1,5 @@
 "use strict"
 
-module.exports = require("detect-emoji-support")
+const detectEmojiSupport = require("detect-emoji-support")
+
+module.exports = async () => detectEmojiSupport() ? 3 : 0
