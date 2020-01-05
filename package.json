@@ -1,6 +1,6 @@
 {
     "name": "the-module",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "My awesome module.",
     "repository": "https://github.com/Richienb/the-module.git",
     "author": "Richie Bendall <richiebendall@gmail.com>",
