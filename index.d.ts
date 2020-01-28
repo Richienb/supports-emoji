@@ -1,14 +1,13 @@
 /**
- * My awesome module.
- * @param input Lorem ipsum.
- * @param postfix Lorem ipsum.
+ * Check if the terminal supports emoji.
  * @example
  * ```
- * const theModule = require("the-module");
- * theModule("unicorns");
- * //=> 'unicorns & rainbows'
+ * const supportsEmoji = require("supports-emoji");
+ *
+ * supportsEmoji;
+ * //=> 2
  * ```
 */
-declare function theModule(input: string, { postfix }: { postfix?: string }): string;
+declare function supportsEmoji(): number;
 
-export = theModule;
+export = supportsEmoji;
